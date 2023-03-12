@@ -1,0 +1,101 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+#header{
+    padding: 50px  0;
+    background: #F8F8F8;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-images{
+    border: solid #fff;
+    background: #fff;
+    width: 310px;
+    border-radius: 18px
+
+}
+.header-img-texts{
+    border: solid #fff;
+    background: #fff;
+    width: 206px;
+    border-radius: 8px 8px 8px 8px;
+    padding: 15px 85px 20px 15px;
+
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-logo{
+    font-family: 'TT Norms',sans-serif;
+    font-size: 42px;
+    color: #232323;
+}
+.header-P{
+    padding: 5px 0 45px 0;
+    font-family: 'TT Norms',sans-serif;
+    font-size: 18px;
+    color: #232323;
+}
+.img-texts-H{
+    padding: 15px 0;
+    font-family: 'SF Pro Display',sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+.img-text-H{
+    font-family: 'SF Pro Display',sans-serif;
+    font-size: 12px;
+    color: #007BFF;
+}
+.img-text-H-C{
+    font-family: 'SF Pro Display',sans-serif;
+    font-size: 12px;
+    color: #007BFF;
+    padding: 0 20px;
+}
+.text-H-H-P{
+    font-family: 'SF Pro Display',sans-serif;
+    font-size: 16px;
+    color: #323643;
+    padding: 5px  20px 0 20px;
+
+}
+.text-H-H{
+    padding: 5px 0 0 0;
+    font-family: 'SF Pro Display',sans-serif;
+    font-size: 16px;
+    color: #323643;
+}
+.header-logotip{
+    display: flex;
+}
+.price-text{
+    font-family: 'SF Pro Display',sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 15px 0 3px 0;
+    color: #007BFF;
+}
+.price-P{
+    font-family: 'SF Pro Display',sans-serif;
+    font-size: 12px;
+    color: #858585;
+}
+.header-btn{
+    margin: 70px 0;
+    padding: 14px 30px;
+    color: white;
+    background: #007BFF;
+    border: none;
+    border-radius: 41px;
+}
+.header-btn:hover{
+    color: #fff;
+    background: #008033;
+    transition: 3s;
+    cursor: pointer;
+}
